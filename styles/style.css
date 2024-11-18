@@ -3,7 +3,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
   background-attachment: fixed;
 }
 
@@ -193,7 +192,6 @@
   line-height: var(--line-height);
   font-size: var(--main-size);
   font-family: var(--font-family);
-  margin: 0;
   padding-block-start: 10px;
   padding-block-end: 20px;
   color: var(--text-color);
