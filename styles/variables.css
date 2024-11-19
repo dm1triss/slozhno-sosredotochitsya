@@ -10,9 +10,10 @@
   --footer-color: #db00ff;
   --border:1px solid #ff0070;
   --decorated-color:#ff0070;
+  --border-hover-color:rgba(255, 0, 112, 0.4);
   --link-decoration: #ff0070;
 
-  --font-family: "IBM Plex Mono", sans-serif;
+  --font-family: "IBM Plex Mono", monospace;
   --main-size: 18px;
   --line-height: 1.3;
 
