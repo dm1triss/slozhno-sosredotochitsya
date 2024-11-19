@@ -16,7 +16,6 @@
   margin-block-end: 20px;
 }
 .rec-decor {
-  inset-block-start: 15px;
   position: relative;
   display: flex;
   z-index: -1;
@@ -437,9 +436,6 @@
   }
   .what .card__subtitle {
     width: 94.1%;
-  }
-  .what .card__text {
-    width: 98%;
   }
   .subtitle__title {
     width: 97%;
