@@ -354,8 +354,6 @@
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
-    padding-block-start: 20px;
-    padding-inline-end: 10px;
   }
   .picture__image {
     padding-block: 0;
@@ -424,6 +422,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0px;
+    row-gap: 50px;
   }
   .card__text {
     width: 98%;
@@ -443,8 +442,13 @@
   .what .card__text {
     width: 96%;
   }
+  .picture {
+    display: grid;
+    padding-inline-end: 20px;
+    gap: 20px;
+  }
   .picture__title {
-    width: 99%;
+    width: 100%;
   }
   .footer {
     min-block-size: 768px;
